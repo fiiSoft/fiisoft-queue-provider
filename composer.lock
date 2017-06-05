@@ -203,16 +203,16 @@
         },
         {
             "name": "fiisoft/tasks-queue",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-tasks-queue.git",
-                "reference": "daaf6adcbf40fd5676aaa32c8c9b725e49edefba"
+                "reference": "9f5d361991a765589a5a1a14cc9faf5b608480de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/daaf6adcbf40fd5676aaa32c8c9b725e49edefba",
-                "reference": "daaf6adcbf40fd5676aaa32c8c9b725e49edefba",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/9f5d361991a765589a5a1a14cc9faf5b608480de",
+                "reference": "9f5d361991a765589a5a1a14cc9faf5b608480de",
                 "shasum": ""
             },
             "require": {
@@ -249,7 +249,7 @@
                 "queue",
                 "tasks queue"
             ],
-            "time": "2017-05-29T19:51:38+00:00"
+            "time": "2017-06-05T20:56:32+00:00"
         },
         {
             "name": "paragonie/random_compat",
