@@ -7,18 +7,21 @@ use FiiSoft\Tools\TasksQueue\Command;
 use FiiSoft\Tools\TasksQueue\CommandQueue;
 use LogicException;
 use Psr\Log\LogLevel;
-use RuntimeException;
+use SplQueue;
 
 final class InstantCommandQueue implements CommandQueue
 {
     /** @var array context for Psr logger */
     private $logContext = ['source' => 'queue'];
     
-    /** @var array */
-    private $commands = [];
-    
     /** @var SmartLogger */
     private $logger;
+    
+    /** @var SplQueue */
+    private $storage;
+    
+//    /** @var array */
+//    private $fetched = [];
     
     /**
      * @param SmartLogger $logger
@@ -27,6 +30,7 @@ final class InstantCommandQueue implements CommandQueue
     {
         $this->logger = $logger;
         $this->logger->setPrefix('[Q] ')->setContext($this->logContext);
+        $this->storage = new SplQueue();
     }
     
     /**
@@ -43,13 +47,16 @@ final class InstantCommandQueue implements CommandQueue
                 'Synchronous in-memory implementation of CommandQueue cannot operate in blocking mode'
             );
         }
-        
-        foreach ($this->commands as $index => $data) {
-            if ($data['status'] === 'new') {
-                $this->commands[$index]['status'] = 'fetched';
-                return $data['command'];
-            }
+    
+        if (!$this->storage->isEmpty()) {
+            return $this->storage->dequeue();
         }
+        
+//        if (!$this->storage->isEmpty()) {
+//            $command = $this->storage->dequeue();
+//            $this->fetched[spl_object_hash($command)] = $command;
+//            return $command;
+//        }
     }
     
     /**
@@ -60,51 +67,36 @@ final class InstantCommandQueue implements CommandQueue
      */
     public function confirmCommandHandled(Command $command)
     {
-        $key = spl_object_hash($command);
-    
-        foreach ($this->commands as $index => $data) {
-            if ($data['key'] === $key) {
-                unset($this->commands[$index]);
-                $this->logActivity('Command confirmed: '.$command->getName());
-                return;
-            }
-        }
-    
-        $this->logWarning('Command '.$command->getName().' should be confirmed but was not found');
+        $this->logActivity('Command confirmed: '.$command->getName());
+        
+//        $key = spl_object_hash($command);
+//        if (isset($this->fetched[$key])) {
+//            unset($this->fetched[$key]);
+//            $this->logActivity('Command confirmed: '.$command->getName());
+//        } else {
+//            $this->logWarning('Command '.$command->getName().' should be confirmed but was not found');
+//        }
     }
     
     /**
      * Requeue command in case when its execution failed or it cannot be handled properly in this time.
      *
      * @param Command $command
-     * @throws RuntimeException
      * @return void
      */
     public function requeueCommand(Command $command)
     {
-        $key = spl_object_hash($command);
-        $found = false;
-    
-        foreach ($this->commands as $index => $data) {
-            if ($data['key'] === $key) {
-                $found = true;
-                break;
-            }
-        }
-    
-        if ($found) {
-            /** @noinspection PhpUndefinedVariableInspection */
-            unset($this->commands[$index]);
-            
-            $data['status'] = 'new';
-            $this->commands[] = $data;
-            
-            $this->logActivity('Command requeued: '.$command->getName());
-        } else {
-            $errorMsg = 'Command ' . $command->getName() . ' should be requeued but was not found';
-            $this->logError($errorMsg);
-            throw new RuntimeException($errorMsg);
-        }
+        $this->storage->enqueue($command);
+        $this->logActivity('Command requeued: '.$command->getName());
+        
+//        $key = spl_object_hash($command);
+//        if (isset($this->fetched[$key])) {
+//            unset($this->fetched[$key]);
+//            $this->storage->enqueue($command);
+//            $this->logActivity('Command requeued: '.$command->getName());
+//        } else {
+//            $this->logWarning('Command '.$command->getName().' should be requeued but was not found');
+//        }
     }
     
     /**
@@ -115,12 +107,7 @@ final class InstantCommandQueue implements CommandQueue
      */
     public function publishCommand(Command $command)
     {
-        $this->commands[] = [
-            'key' => spl_object_hash($command),
-            'command' => $command,
-            'status' => 'new',
-        ];
-    
+        $this->storage->enqueue($command);
         $this->logActivity('Command published: '.$command->getName());
     }
     
@@ -161,15 +148,6 @@ final class InstantCommandQueue implements CommandQueue
     private function logWarning($message)
     {
         $this->log($message, LogLevel::WARNING);
-    }
-    
-    /**
-     * @param string $message
-     * @return void
-     */
-    private function logError($message)
-    {
-        $this->log($message, LogLevel::ERROR);
     }
     
     /**

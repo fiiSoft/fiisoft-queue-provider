@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6bcabc8c141630c314c26fb4e255902d",
+    "content-hash": "fffcfe117d263e86023e4dd5118cc5ae",
     "packages": [
         {
             "name": "fiisoft/basics",
@@ -202,16 +202,16 @@
         },
         {
             "name": "fiisoft/tasks-queue",
-            "version": "1.2.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-tasks-queue.git",
-                "reference": "e3d20a1b4533d2c5588347e7caae11d398c20507"
+                "reference": "be201429384d0ed79ca676f64ac5f582a50cd6b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/e3d20a1b4533d2c5588347e7caae11d398c20507",
-                "reference": "e3d20a1b4533d2c5588347e7caae11d398c20507",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/be201429384d0ed79ca676f64ac5f582a50cd6b1",
+                "reference": "be201429384d0ed79ca676f64ac5f582a50cd6b1",
                 "shasum": ""
             },
             "require": {
@@ -248,7 +248,7 @@
                 "queue",
                 "tasks queue"
             ],
-            "time": "2017-07-12T23:48:28+00:00"
+            "time": "2017-07-13T21:21:04+00:00"
         },
         {
             "name": "paragonie/random_compat",
