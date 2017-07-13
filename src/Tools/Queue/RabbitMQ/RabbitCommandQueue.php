@@ -126,6 +126,7 @@ final class RabbitCommandQueue implements CommandQueue
      * Publish command (send it to queue to execute by worker).
      *
      * @param Command $command
+     * @throws RuntimeException
      * @return void
      */
     public function publishCommand(Command $command)
@@ -180,24 +181,6 @@ final class RabbitCommandQueue implements CommandQueue
     private function logActivity($message)
     {
         $this->log($message, 'queue');
-    }
-    
-    /**
-     * @param string $message
-     * @return void
-     */
-    private function logInfo($message)
-    {
-        $this->log($message, LogLevel::INFO);
-    }
-    
-    /**
-     * @param string $message
-     * @return void
-     */
-    private function logNotice($message)
-    {
-        $this->log($message, LogLevel::NOTICE);
     }
     
     /**

@@ -4,25 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f63a6807698970826f197b45823833a3",
+    "content-hash": "6bcabc8c141630c314c26fb4e255902d",
     "packages": [
         {
             "name": "fiisoft/basics",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-basics.git",
-                "reference": "52f7054f537352347cdf73091440d39f5f2e454a"
+                "reference": "6fe56d6e3740defcd05308937961bb79650de520"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-basics/zipball/52f7054f537352347cdf73091440d39f5f2e454a",
-                "reference": "52f7054f537352347cdf73091440d39f5f2e454a",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-basics/zipball/6fe56d6e3740defcd05308937961bb79650de520",
+                "reference": "6fe56d6e3740defcd05308937961bb79650de520",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6.0",
-                "roave/security-advisories": "dev-master"
+                "php": ">=5.6.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7.19"
@@ -54,7 +53,7 @@
                 "specification validation",
                 "xml validation"
             ],
-            "time": "2017-05-21T17:36:01+00:00"
+            "time": "2017-07-08T23:26:32+00:00"
         },
         {
             "name": "fiisoft/console",
@@ -107,16 +106,16 @@
         },
         {
             "name": "fiisoft/logger",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-logger.git",
-                "reference": "feaba1cfdf1a8a97704be9ed08ab61b7ae85bac4"
+                "reference": "9b6e860fbcf8e8658342f35e8b98d7b06cde7efc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-logger/zipball/feaba1cfdf1a8a97704be9ed08ab61b7ae85bac4",
-                "reference": "feaba1cfdf1a8a97704be9ed08ab61b7ae85bac4",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-logger/zipball/9b6e860fbcf8e8658342f35e8b98d7b06cde7efc",
+                "reference": "9b6e860fbcf8e8658342f35e8b98d7b06cde7efc",
                 "shasum": ""
             },
             "require": {
@@ -151,7 +150,7 @@
                 "logger",
                 "messages"
             ],
-            "time": "2017-05-29T12:25:57+00:00"
+            "time": "2017-07-12T23:28:47+00:00"
         },
         {
             "name": "fiisoft/output-writer",
@@ -203,16 +202,16 @@
         },
         {
             "name": "fiisoft/tasks-queue",
-            "version": "1.0.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-tasks-queue.git",
-                "reference": "9f5d361991a765589a5a1a14cc9faf5b608480de"
+                "reference": "e3d20a1b4533d2c5588347e7caae11d398c20507"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/9f5d361991a765589a5a1a14cc9faf5b608480de",
-                "reference": "9f5d361991a765589a5a1a14cc9faf5b608480de",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/e3d20a1b4533d2c5588347e7caae11d398c20507",
+                "reference": "e3d20a1b4533d2c5588347e7caae11d398c20507",
                 "shasum": ""
             },
             "require": {
@@ -249,7 +248,7 @@
                 "queue",
                 "tasks queue"
             ],
-            "time": "2017-06-05T20:56:32+00:00"
+            "time": "2017-07-12T23:48:28+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -504,12 +503,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "ccffea64be8575eaa7ad09cd16dfeedfa4711607"
+                "reference": "c1bdf69b424087447dc8e12d95b373c2b1cc77f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ccffea64be8575eaa7ad09cd16dfeedfa4711607",
-                "reference": "ccffea64be8575eaa7ad09cd16dfeedfa4711607",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/c1bdf69b424087447dc8e12d95b373c2b1cc77f2",
+                "reference": "c1bdf69b424087447dc8e12d95b373c2b1cc77f2",
                 "shasum": ""
             },
             "conflict": {
@@ -523,7 +522,8 @@
                 "codeigniter/framework": "<=3.0.6",
                 "composer/composer": "<=1.0.0-alpha11",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
-                "contao/core": ">=2.11,<3.5.15",
+                "contao/core": ">=2,<3.5.28",
+                "contao/core-bundle": ">=4,<4.4.1",
                 "doctrine/annotations": ">=1,<1.2.7",
                 "doctrine/cache": ">=1,<1.3.2|>=1.4,<1.4.2",
                 "doctrine/common": ">=2,<2.4.3|>=2.5,<2.5.1",
@@ -534,8 +534,8 @@
                 "doctrine/mongodb-odm-bundle": ">=2,<3.0.1",
                 "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1",
                 "dompdf/dompdf": ">=0.6,<0.6.2",
-                "drupal/core": ">=8,<8.2.8|>=8.3,<8.3.1",
-                "drupal/drupal": ">=8,<8.2.8|>=8.3,<8.3.1",
+                "drupal/core": ">=8,<8.3.4",
+                "drupal/drupal": ">=8,<8.3.4",
                 "firebase/php-jwt": "<2",
                 "friendsofsymfony/rest-bundle": ">=1.2,<1.2.2",
                 "friendsofsymfony/user-bundle": ">=1.2,<1.3.5",
@@ -551,6 +551,7 @@
                 "magento/magento2ce": ">=2,<2.2",
                 "monolog/monolog": ">=1.8,<1.12",
                 "namshi/jose": "<2.2",
+                "onelogin/php-saml": "<2.10.4",
                 "oro/crm": ">=1.7,<1.7.4",
                 "oro/platform": ">=1.7,<1.7.4",
                 "phpmailer/phpmailer": ">=5,<5.2.22",
@@ -631,20 +632,20 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2017-05-13T14:02:28+00:00"
+            "time": "2017-07-12T12:45:47+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.21",
+            "version": "v2.8.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "efa4d466b67c2fc9bf9419a981e683e1f99fa029"
+                "reference": "46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/efa4d466b67c2fc9bf9419a981e683e1f99fa029",
-                "reference": "efa4d466b67c2fc9bf9419a981e683e1f99fa029",
+                "url": "https://api.github.com/repos/symfony/console/zipball/46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2",
+                "reference": "46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2",
                 "shasum": ""
             },
             "require": {
@@ -692,7 +693,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-28T14:07:33+00:00"
+            "time": "2017-07-03T08:04:30+00:00"
         },
         {
             "name": "symfony/debug",
@@ -753,16 +754,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
+                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
                 "shasum": ""
             },
             "require": {
@@ -774,7 +775,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -808,7 +809,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14T01:06:16+00:00"
+            "time": "2017-06-09T14:24:12+00:00"
         }
     ],
     "packages-dev": [],
