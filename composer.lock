@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fffcfe117d263e86023e4dd5118cc5ae",
+    "content-hash": "0e9125507b4d9dedf16a0be06235f3ea",
     "packages": [
         {
             "name": "fiisoft/basics",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-basics.git",
-                "reference": "6fe56d6e3740defcd05308937961bb79650de520"
+                "reference": "d1f587bddeb54552443feb62a460a4c18c207aee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-basics/zipball/6fe56d6e3740defcd05308937961bb79650de520",
-                "reference": "6fe56d6e3740defcd05308937961bb79650de520",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-basics/zipball/d1f587bddeb54552443feb62a460a4c18c207aee",
+                "reference": "d1f587bddeb54552443feb62a460a4c18c207aee",
                 "shasum": ""
             },
             "require": {
@@ -53,20 +53,20 @@
                 "specification validation",
                 "xml validation"
             ],
-            "time": "2017-07-08T23:26:32+00:00"
+            "time": "2017-08-06T13:02:27+00:00"
         },
         {
             "name": "fiisoft/console",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-console.git",
-                "reference": "0412a215801b5c5e1b3edc90a848aa70802b8231"
+                "reference": "59c0003ab2e231070f6c9cd7a589e19fe74a6122"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-console/zipball/0412a215801b5c5e1b3edc90a848aa70802b8231",
-                "reference": "0412a215801b5c5e1b3edc90a848aa70802b8231",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-console/zipball/59c0003ab2e231070f6c9cd7a589e19fe74a6122",
+                "reference": "59c0003ab2e231070f6c9cd7a589e19fe74a6122",
                 "shasum": ""
             },
             "require": {
@@ -102,7 +102,7 @@
                 "console",
                 "console command"
             ],
-            "time": "2017-05-21T13:57:44+00:00"
+            "time": "2017-07-14T21:25:14+00:00"
         },
         {
             "name": "fiisoft/logger",
@@ -202,16 +202,16 @@
         },
         {
             "name": "fiisoft/tasks-queue",
-            "version": "2.0.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-tasks-queue.git",
-                "reference": "be201429384d0ed79ca676f64ac5f582a50cd6b1"
+                "reference": "aea4a881f51db952e29080171ad6d3b9f829983e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/be201429384d0ed79ca676f64ac5f582a50cd6b1",
-                "reference": "be201429384d0ed79ca676f64ac5f582a50cd6b1",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/aea4a881f51db952e29080171ad6d3b9f829983e",
+                "reference": "aea4a881f51db952e29080171ad6d3b9f829983e",
                 "shasum": ""
             },
             "require": {
@@ -248,7 +248,7 @@
                 "queue",
                 "tasks queue"
             ],
-            "time": "2017-07-13T21:21:04+00:00"
+            "time": "2017-08-08T22:14:36+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -417,16 +417,16 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "3.6.1",
+            "version": "3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "4ae32dd9ab8860a4bbd750ad269cba7f06f7934e"
+                "reference": "0ef23d1b10cf1bc576e9d865a7e9c47982c5715e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/4ae32dd9ab8860a4bbd750ad269cba7f06f7934e",
-                "reference": "4ae32dd9ab8860a4bbd750ad269cba7f06f7934e",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/0ef23d1b10cf1bc576e9d865a7e9c47982c5715e",
+                "reference": "0ef23d1b10cf1bc576e9d865a7e9c47982c5715e",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2017-03-26T20:37:53+00:00"
+            "time": "2017-08-04T13:39:04+00:00"
         },
         {
             "name": "roave/security-advisories",
@@ -503,12 +503,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "c1bdf69b424087447dc8e12d95b373c2b1cc77f2"
+                "reference": "9df1a9e73fc7caa573adaf98d159623048a7feed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/c1bdf69b424087447dc8e12d95b373c2b1cc77f2",
-                "reference": "c1bdf69b424087447dc8e12d95b373c2b1cc77f2",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/9df1a9e73fc7caa573adaf98d159623048a7feed",
+                "reference": "9df1a9e73fc7caa573adaf98d159623048a7feed",
                 "shasum": ""
             },
             "conflict": {
@@ -554,7 +554,7 @@
                 "onelogin/php-saml": "<2.10.4",
                 "oro/crm": ">=1.7,<1.7.4",
                 "oro/platform": ">=1.7,<1.7.4",
-                "phpmailer/phpmailer": ">=5,<5.2.22",
+                "phpmailer/phpmailer": ">=5,<5.2.24",
                 "pusher/pusher-php-server": "<2.2.1",
                 "sabre/dav": ">=1.6,<1.6.99|>=1.7,<1.7.11|>=1.8,<1.8.9",
                 "shopware/shopware": "<4.4|>=5,<5.2.16",
@@ -563,7 +563,7 @@
                 "silverstripe/framework": ">=3,<3.3",
                 "silverstripe/userforms": "<3",
                 "simplesamlphp/saml2": "<1.8.1|>=1.9,<1.9.1|>=1.10,<1.10.3|>=2,<2.3.3",
-                "simplesamlphp/simplesamlphp": "<1.14.12",
+                "simplesamlphp/simplesamlphp": "<1.14.15",
                 "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "squizlabs/php_codesniffer": ">=1,<2.8.1",
@@ -574,11 +574,11 @@
                 "symfony/http-foundation": ">=2,<2.3.27|>=2.4,<2.5.11|>=2.6,<2.6.6",
                 "symfony/http-kernel": ">=2,<2.3.29|>=2.4,<2.5.12|>=2.6,<2.6.8",
                 "symfony/routing": ">=2,<2.0.19",
-                "symfony/security": ">=2.3,<2.3.37|>=2.4,<2.6.13|>=2.7,<2.7.9|>=2,<2.0.25|>=2.1,<2.1.13|>=2.2,<2.2.9",
-                "symfony/security-core": ">=2.8,<2.8.6|>=3,<3.0.6|>=2.4,<2.6.13|>=2.7,<2.7.9",
+                "symfony/security": ">=2.7.30,<2.7.32|>=2.8.23,<2.8.25|>=3.2.10,<3.2.12|>=3.3.3,<3.3.5|>=2.3,<2.3.37|>=2.4,<2.6.13|>=2.7,<2.7.9|>=2,<2.0.25|>=2.1,<2.1.13|>=2.2,<2.2.9",
+                "symfony/security-core": ">=2.7.30,<2.7.32|>=2.8.23,<2.8.25|>=3.2.10,<3.2.12|>=3.3.3,<3.3.5|>=2.8,<2.8.6|>=3,<3.0.6|>=2.4,<2.6.13|>=2.7,<2.7.9",
                 "symfony/security-http": ">=2.4,<2.7.13|>=2.3,<2.3.41|>=2.8,<2.8.6|>=3,<3.0.6",
                 "symfony/serializer": ">=2,<2.0.11",
-                "symfony/symfony": ">=2,<2.3.41|>=2.4,<2.7.13|>=2.8,<2.8.6|>=3,<3.0.6",
+                "symfony/symfony": ">=2,<2.3.41|>=2.4,<2.7.13|>=2.7.30,<2.7.32|>=2.8.23,<2.8.25|>=3.2.10,<3.2.12|>=3.3.3,<3.3.5|>=2.8,<2.8.6|>=3,<3.0.6",
                 "symfony/translation": ">=2,<2.0.17",
                 "symfony/validator": ">=2,<2.0.24|>=2.1,<2.1.12|>=2.2,<2.2.5|>=2.3,<2.3.3",
                 "symfony/web-profiler-bundle": ">=2,<2.3.19|>=2.4,<2.4.9|>=2.5,<2.5.4",
@@ -632,20 +632,20 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2017-07-12T12:45:47+00:00"
+            "time": "2017-08-08T18:44:50+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.24",
+            "version": "v2.8.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2"
+                "reference": "32a3c6b3398de5db8ed381f4ef92970c59c2fcdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2",
-                "reference": "46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2",
+                "url": "https://api.github.com/repos/symfony/console/zipball/32a3c6b3398de5db8ed381f4ef92970c59c2fcdd",
+                "reference": "32a3c6b3398de5db8ed381f4ef92970c59c2fcdd",
                 "shasum": ""
             },
             "require": {
@@ -693,7 +693,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-03T08:04:30+00:00"
+            "time": "2017-07-29T21:26:04+00:00"
         },
         {
             "name": "symfony/debug",

@@ -2,6 +2,11 @@
 
 All important changes to `fiisoft-queue-provider` will be documented in this file
 
+## 2.0.0
+
+Version of dependency fiisoft/tasks-queue lifted to 3.0.0 
+(it contains backward-incompatible change of QueueFactory interface).
+
 ## 1.2.0
 
 - class InstantCommandQueue operates now much much faster thanks to use SplQueue
