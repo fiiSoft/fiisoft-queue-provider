@@ -20,9 +20,6 @@ final class InstantCommandQueue implements CommandQueue
     /** @var SplQueue */
     private $storage;
     
-//    /** @var array */
-//    private $fetched = [];
-    
     /**
      * @param SmartLogger $logger
      */
@@ -51,12 +48,6 @@ final class InstantCommandQueue implements CommandQueue
         if (!$this->storage->isEmpty()) {
             return $this->storage->dequeue();
         }
-        
-//        if (!$this->storage->isEmpty()) {
-//            $command = $this->storage->dequeue();
-//            $this->fetched[spl_object_hash($command)] = $command;
-//            return $command;
-//        }
     }
     
     /**
@@ -68,14 +59,6 @@ final class InstantCommandQueue implements CommandQueue
     public function confirmCommandHandled(Command $command)
     {
         $this->logActivity('Command confirmed: '.$command->getName());
-        
-//        $key = spl_object_hash($command);
-//        if (isset($this->fetched[$key])) {
-//            unset($this->fetched[$key]);
-//            $this->logActivity('Command confirmed: '.$command->getName());
-//        } else {
-//            $this->logWarning('Command '.$command->getName().' should be confirmed but was not found');
-//        }
     }
     
     /**
@@ -88,15 +71,6 @@ final class InstantCommandQueue implements CommandQueue
     {
         $this->storage->enqueue($command);
         $this->logActivity('Command requeued: '.$command->getName());
-        
-//        $key = spl_object_hash($command);
-//        if (isset($this->fetched[$key])) {
-//            unset($this->fetched[$key]);
-//            $this->storage->enqueue($command);
-//            $this->logActivity('Command requeued: '.$command->getName());
-//        } else {
-//            $this->logWarning('Command '.$command->getName().' should be requeued but was not found');
-//        }
     }
     
     /**

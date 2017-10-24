@@ -2,10 +2,10 @@
     "name": "fiisoft/queue-provider",
     "type": "library",
     "description": "This library provides implementations of several classes from other packages. The current solution works and requires RabbitMQ.",
-    "keywords": ["queue","rabbitmq"],
+    "keywords": ["queue", "rabbitmq", "tasks queue", "commands"],
     "homepage": "https://github.com/fiiSoft/fiisoft-queue-provider",
     "license": "MIT",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "authors": [
         {
             "name": "FiiSoft",
@@ -20,7 +20,6 @@
     },
     "require": {
         "php": ">=5.6.0",
-        "roave/security-advisories": "dev-master",
         "php-amqplib/php-amqplib": "^2.6.3",
         "psr/log": "^1.0.0",
         "fiisoft/tasks-queue": "^3.0.0",
