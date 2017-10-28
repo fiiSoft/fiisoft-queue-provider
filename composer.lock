@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "665f743020913c655119b90af4fa7184",
+    "content-hash": "26f772498999b43815da3d970920c005",
     "packages": [
         {
             "name": "fiisoft/basics",
@@ -57,16 +57,16 @@
         },
         {
             "name": "fiisoft/console",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-console.git",
-                "reference": "4d20afdb43d7bfb4bcf7cca59eee6ec879d6d20e"
+                "reference": "de6c18b47550b2a55c6a46c1ca3f1ff9bb7eb28f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-console/zipball/4d20afdb43d7bfb4bcf7cca59eee6ec879d6d20e",
-                "reference": "4d20afdb43d7bfb4bcf7cca59eee6ec879d6d20e",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-console/zipball/de6c18b47550b2a55c6a46c1ca3f1ff9bb7eb28f",
+                "reference": "de6c18b47550b2a55c6a46c1ca3f1ff9bb7eb28f",
                 "shasum": ""
             },
             "require": {
@@ -97,20 +97,20 @@
                 "console",
                 "console command"
             ],
-            "time": "2017-10-22T21:42:44+00:00"
+            "time": "2017-10-26T22:07:51+00:00"
         },
         {
             "name": "fiisoft/logger",
-            "version": "1.3.1",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-logger.git",
-                "reference": "947947da37f0db8a3bbc4cfbc523894ebd7271ea"
+                "reference": "d2440fb94482addd7e4d953f406040d1e3bfa03f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-logger/zipball/947947da37f0db8a3bbc4cfbc523894ebd7271ea",
-                "reference": "947947da37f0db8a3bbc4cfbc523894ebd7271ea",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-logger/zipball/d2440fb94482addd7e4d953f406040d1e3bfa03f",
+                "reference": "d2440fb94482addd7e4d953f406040d1e3bfa03f",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +145,7 @@
                 "logger",
                 "messages"
             ],
-            "time": "2017-10-24T21:34:37+00:00"
+            "time": "2017-10-28T19:29:39+00:00"
         },
         {
             "name": "fiisoft/output-writer",
@@ -195,16 +195,16 @@
         },
         {
             "name": "fiisoft/tasks-queue",
-            "version": "3.0.2",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-tasks-queue.git",
-                "reference": "a9223642c541803aca5b9c7bd172dc257c7309ec"
+                "reference": "91cfe48a17abff62451bf3b53f83fa77f738f900"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/a9223642c541803aca5b9c7bd172dc257c7309ec",
-                "reference": "a9223642c541803aca5b9c7bd172dc257c7309ec",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/91cfe48a17abff62451bf3b53f83fa77f738f900",
+                "reference": "91cfe48a17abff62451bf3b53f83fa77f738f900",
                 "shasum": ""
             },
             "require": {
@@ -240,7 +240,7 @@
                 "queue",
                 "tasks queue"
             ],
-            "time": "2017-10-24T21:53:28+00:00"
+            "time": "2017-10-28T20:05:22+00:00"
         },
         {
             "name": "paragonie/random_compat",
