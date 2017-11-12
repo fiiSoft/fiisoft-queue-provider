@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "26f772498999b43815da3d970920c005",
+    "content-hash": "c5f013d0ba2c12583c33f8bc9a33c9ba",
     "packages": [
         {
             "name": "fiisoft/basics",
@@ -57,16 +57,16 @@
         },
         {
             "name": "fiisoft/console",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-console.git",
-                "reference": "de6c18b47550b2a55c6a46c1ca3f1ff9bb7eb28f"
+                "reference": "50e1be6e26429bed5b5b932dc21605ca09161a49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-console/zipball/de6c18b47550b2a55c6a46c1ca3f1ff9bb7eb28f",
-                "reference": "de6c18b47550b2a55c6a46c1ca3f1ff9bb7eb28f",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-console/zipball/50e1be6e26429bed5b5b932dc21605ca09161a49",
+                "reference": "50e1be6e26429bed5b5b932dc21605ca09161a49",
                 "shasum": ""
             },
             "require": {
@@ -97,20 +97,20 @@
                 "console",
                 "console command"
             ],
-            "time": "2017-10-26T22:07:51+00:00"
+            "time": "2017-11-12T22:50:18+00:00"
         },
         {
             "name": "fiisoft/logger",
-            "version": "1.4.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-logger.git",
-                "reference": "d2440fb94482addd7e4d953f406040d1e3bfa03f"
+                "reference": "1dcae9a0afdbf8a0d683a99e6bbb2e6a6b1ffbb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-logger/zipball/d2440fb94482addd7e4d953f406040d1e3bfa03f",
-                "reference": "d2440fb94482addd7e4d953f406040d1e3bfa03f",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-logger/zipball/1dcae9a0afdbf8a0d683a99e6bbb2e6a6b1ffbb6",
+                "reference": "1dcae9a0afdbf8a0d683a99e6bbb2e6a6b1ffbb6",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +145,7 @@
                 "logger",
                 "messages"
             ],
-            "time": "2017-10-28T19:29:39+00:00"
+            "time": "2017-11-12T22:08:39+00:00"
         },
         {
             "name": "fiisoft/output-writer",
@@ -195,22 +195,22 @@
         },
         {
             "name": "fiisoft/tasks-queue",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-tasks-queue.git",
-                "reference": "91cfe48a17abff62451bf3b53f83fa77f738f900"
+                "reference": "c5705178acc826e516e965d2a191a3625f5bc438"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/91cfe48a17abff62451bf3b53f83fa77f738f900",
-                "reference": "91cfe48a17abff62451bf3b53f83fa77f738f900",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/c5705178acc826e516e965d2a191a3625f5bc438",
+                "reference": "c5705178acc826e516e965d2a191a3625f5bc438",
                 "shasum": ""
             },
             "require": {
                 "fiisoft/basics": "^2.0.0",
                 "fiisoft/console": "^1.0.0",
-                "fiisoft/logger": "^1.0.0",
+                "fiisoft/logger": "^2.0.0",
                 "fiisoft/output-writer": "^1.0.0",
                 "php": ">=5.6.0",
                 "ramsey/uuid": "^3.6"
@@ -240,7 +240,7 @@
                 "queue",
                 "tasks queue"
             ],
-            "time": "2017-10-28T20:05:22+00:00"
+            "time": "2017-11-12T23:17:08+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -491,16 +491,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.28",
+            "version": "v2.8.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "f81549d2c5fdee8d711c9ab3c7e7362353ea5853"
+                "reference": "89143ce2b463515a75b5f5e9650e6ecfb2684158"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/f81549d2c5fdee8d711c9ab3c7e7362353ea5853",
-                "reference": "f81549d2c5fdee8d711c9ab3c7e7362353ea5853",
+                "url": "https://api.github.com/repos/symfony/console/zipball/89143ce2b463515a75b5f5e9650e6ecfb2684158",
+                "reference": "89143ce2b463515a75b5f5e9650e6ecfb2684158",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-10-01T21:00:16+00:00"
+            "time": "2017-11-07T14:08:47+00:00"
         },
         {
             "name": "symfony/debug",
