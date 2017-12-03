@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5f013d0ba2c12583c33f8bc9a33c9ba",
+    "content-hash": "7b57255df3d5ae244aaf53f94ae9b6c3",
     "packages": [
         {
             "name": "fiisoft/basics",
@@ -101,16 +101,16 @@
         },
         {
             "name": "fiisoft/logger",
-            "version": "2.0.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-logger.git",
-                "reference": "1dcae9a0afdbf8a0d683a99e6bbb2e6a6b1ffbb6"
+                "reference": "4b064971c49e0828221ea8db225fedb4965e838f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-logger/zipball/1dcae9a0afdbf8a0d683a99e6bbb2e6a6b1ffbb6",
-                "reference": "1dcae9a0afdbf8a0d683a99e6bbb2e6a6b1ffbb6",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-logger/zipball/4b064971c49e0828221ea8db225fedb4965e838f",
+                "reference": "4b064971c49e0828221ea8db225fedb4965e838f",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +145,7 @@
                 "logger",
                 "messages"
             ],
-            "time": "2017-11-12T22:08:39+00:00"
+            "time": "2017-12-03T20:10:41+00:00"
         },
         {
             "name": "fiisoft/output-writer",
@@ -195,22 +195,22 @@
         },
         {
             "name": "fiisoft/tasks-queue",
-            "version": "3.2.0",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fiiSoft/fiisoft-tasks-queue.git",
-                "reference": "c5705178acc826e516e965d2a191a3625f5bc438"
+                "reference": "352fcb96fa33ffe02506c0876a076f3e3f4954d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/c5705178acc826e516e965d2a191a3625f5bc438",
-                "reference": "c5705178acc826e516e965d2a191a3625f5bc438",
+                "url": "https://api.github.com/repos/fiiSoft/fiisoft-tasks-queue/zipball/352fcb96fa33ffe02506c0876a076f3e3f4954d0",
+                "reference": "352fcb96fa33ffe02506c0876a076f3e3f4954d0",
                 "shasum": ""
             },
             "require": {
                 "fiisoft/basics": "^2.0.0",
                 "fiisoft/console": "^1.0.0",
-                "fiisoft/logger": "^2.0.0",
+                "fiisoft/logger": "^3.0.0",
                 "fiisoft/output-writer": "^1.0.0",
                 "php": ">=5.6.0",
                 "ramsey/uuid": "^3.6"
@@ -240,7 +240,7 @@
                 "queue",
                 "tasks queue"
             ],
-            "time": "2017-11-12T23:17:08+00:00"
+            "time": "2017-12-03T20:35:23+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -491,16 +491,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.29",
+            "version": "v2.8.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "89143ce2b463515a75b5f5e9650e6ecfb2684158"
+                "reference": "7cad097cf081c0ab3d0322cc38d34ee80484d86f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/89143ce2b463515a75b5f5e9650e6ecfb2684158",
-                "reference": "89143ce2b463515a75b5f5e9650e6ecfb2684158",
+                "url": "https://api.github.com/repos/symfony/console/zipball/7cad097cf081c0ab3d0322cc38d34ee80484d86f",
+                "reference": "7cad097cf081c0ab3d0322cc38d34ee80484d86f",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-07T14:08:47+00:00"
+            "time": "2017-11-16T15:20:19+00:00"
         },
         {
             "name": "symfony/debug",

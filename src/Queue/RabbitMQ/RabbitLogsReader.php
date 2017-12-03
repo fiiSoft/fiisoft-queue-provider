@@ -1,10 +1,10 @@
 <?php
 
-namespace FiiSoft\Tools\Queue\RabbitMQ;
+namespace FiiSoft\Queue\RabbitMQ;
 
 use BadMethodCallException;
-use FiiSoft\Tools\Logger\Reader\LogConsumer;
-use FiiSoft\Tools\Logger\Reader\LogsReader;
+use FiiSoft\Logger\Reader\LogConsumer;
+use FiiSoft\Logger\Reader\LogsReader;
 use InvalidArgumentException;
 use PhpAmqpLib\Exception\AMQPOutOfBoundsException;
 use PhpAmqpLib\Exception\AMQPRuntimeException;

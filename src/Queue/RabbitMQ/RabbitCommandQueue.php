@@ -1,11 +1,11 @@
 <?php
 
-namespace FiiSoft\Tools\Queue\RabbitMQ;
+namespace FiiSoft\Queue\RabbitMQ;
 
-use FiiSoft\Tools\Logger\Writer\SmartLogger;
-use FiiSoft\Tools\TasksQueue\Command;
-use FiiSoft\Tools\TasksQueue\CommandMemo;
-use FiiSoft\Tools\TasksQueue\CommandQueue;
+use FiiSoft\Logger\SmartLogger;
+use FiiSoft\TasksQueue\Command;
+use FiiSoft\TasksQueue\CommandMemo;
+use FiiSoft\TasksQueue\CommandQueue;
 use PhpAmqpLib\Message\AMQPMessage;
 use Psr\Log\LogLevel;
 use RuntimeException;

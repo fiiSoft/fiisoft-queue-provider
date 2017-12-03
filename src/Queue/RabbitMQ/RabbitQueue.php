@@ -1,6 +1,6 @@
 <?php
 
-namespace FiiSoft\Tools\Queue\RabbitMQ;
+namespace FiiSoft\Queue\RabbitMQ;
 
 use PhpAmqpLib\Channel\AMQPChannel;
 use PhpAmqpLib\Exception\AMQPOutOfBoundsException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace FiiSoft\Tools\Queue\RabbitMQ;
+namespace FiiSoft\Queue\RabbitMQ;
 
 use FiiSoft\Tools\Configuration\AbstractConfiguration;
 

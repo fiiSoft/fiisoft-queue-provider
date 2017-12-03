@@ -2,6 +2,11 @@
 
 All important changes to `fiisoft-queue-provider` will be documented in this file
 
+## 3.0.0
+
+There are no new features in this version.
+It is just backward-incompatible because all classes have been moved to other namespace.
+
 ## 2.0.0
 
 Version of dependency fiisoft/tasks-queue lifted to 3.0.0 

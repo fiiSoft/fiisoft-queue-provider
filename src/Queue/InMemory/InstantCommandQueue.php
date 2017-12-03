@@ -1,19 +1,15 @@
 <?php
 
-namespace FiiSoft\Tools\Queue\InMemory;
+namespace FiiSoft\Queue\InMemory;
 
-use FiiSoft\Tools\Logger\Writer\SmartLogger;
-use FiiSoft\Tools\TasksQueue\Command;
-use FiiSoft\Tools\TasksQueue\CommandQueue;
+use FiiSoft\Logger\SmartLogger;
+use FiiSoft\TasksQueue\Command;
+use FiiSoft\TasksQueue\CommandQueue;
 use LogicException;
-use Psr\Log\LogLevel;
 use SplQueue;
 
 final class InstantCommandQueue implements CommandQueue
 {
-    /** @var array context for Psr logger */
-    private $logContext = ['source' => 'queue'];
-    
     /** @var SmartLogger */
     private $logger;
     
@@ -26,7 +22,7 @@ final class InstantCommandQueue implements CommandQueue
     public function __construct(SmartLogger $logger)
     {
         $this->logger = $logger;
-        $this->logger->setPrefix('[Q] ')->setContext($this->logContext);
+        $this->logger->setPrefix('[Q] ')->setContext(['source' => 'queue']);
         $this->storage = new SplQueue();
     }
     
@@ -113,15 +109,6 @@ final class InstantCommandQueue implements CommandQueue
     private function logActivity($message)
     {
         $this->log($message, 'queue');
-    }
-    
-    /**
-     * @param string $message
-     * @return void
-     */
-    private function logWarning($message)
-    {
-        $this->log($message, LogLevel::WARNING);
     }
     
     /**

@@ -1,8 +1,8 @@
 <?php
 
-namespace FiiSoft\Tools\Queue\RabbitMQ;
+namespace FiiSoft\Queue\RabbitMQ;
 
-use FiiSoft\Tools\Logger\Writer\LogsWriter;
+use FiiSoft\Logger\Writer\LogsWriter;
 use PhpAmqpLib\Message\AMQPMessage;
 use RuntimeException;
 
